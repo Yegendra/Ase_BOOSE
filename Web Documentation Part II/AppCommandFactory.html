@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0083)file:///C:/Users/ankit/AppData/Roaming/DocPreview/Temp/vs.14976/doc.-342354419.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="./AppCommandFactory_files/ContentsMerged.css">
+    <title>Class GenericClass</title>
+</head>
+<body><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Class AppCommandFactory</div>
+    <div id="Contents">
+
+    
+ Factory class responsible for creating application-specific commands based on the provided command type.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppCommandFactory_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    public class AppCommandFactory : CommandFactory</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Constructor AppCommandFactory</div>
+    <div id="Contents">
+
+    
+ Initializes a new instance of the <a href="file:///C:/Users/ankit/AppData/Roaming/DocPreview/Temp/vs.14976/doc.-342354419.html">AppCommandFactory</a> class.
+ This constructor does not take any parameters and simply invokes the base class constructor.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppCommandFactory_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    public AppCommandFactory()</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method MakeCommand</div>
+    <div id="Contents">
+
+    
+ Creates a command object based on the provided <span class="Code">commandType</span>.
+ This method checks the input command type, validates it, and returns an instance of the corresponding command.
+ If the command type is invalid or unrecognized, an exception is thrown.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppCommandFactory_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    public override ICommand MakeCommand(string commandType)</pre></td></tr></tbody></table>
+    
+    <div class="CommentHeader">Parameters</div>
+<div class="CommentParameterName">commandType</div><div class="ParameterCommentContainer">
+The type of the command to create (e.g., "tri", "clear", "write").
+</div>
+
+    <div class="CommentHeader">Return Value</div>
+<div class="ParameterCommentContainer">
+An instance of a command that implements the <a href="file:///C:/Users/ankit/AppData/Roaming/DocPreview/Temp/vs.14976/doc.-342354419.html">ICommand</a> interface.
+</div>
+
+    
+    
+    
+<div id="SectionHeader1" class="SectionHeader">
+   <img id="SectionExpanderImg1" src="./AppCommandFactory_files/BigSquareExpanded.gif" alt="Collapse/Expand"> 
+   <span class="SectionHeader">
+       <span class="ArrowCursor">
+       Exceptions
+       </span>
+   </span>
+</div>
+<div id="SectionContainerDiv1" class="SectionContainer">
+<table class="MembersTable">
+<colgroup><col width="25%">
+<col width="75%">
+</colgroup><tbody><tr>
+<th>Exception</th>
+<th>Condition</th></tr>
+<tr>
+<td><span class="PseudoLink">ArgumentNullException</span></td>
+<td>
+ Thrown when <span class="Code">commandType</span> is null or empty.
+ </td>
+</tr>
+<tr>
+<td><span class="PseudoLink">ArgumentException</span></td>
+<td>
+ Thrown when the <span class="Code">commandType</span> is invalid or unrecognized.
+ </td>
+</tr>
+<tr>
+<td><span class="PseudoLink">Exception</span></td>
+<td>
+ Thrown if there is any other error while creating the command.
+ </td>
+</tr>
+</tbody></table>
+</div>
+
+    
+    
+
+</div>
+<p></p>
+
+</div></div></div></div></div></div></body></html>

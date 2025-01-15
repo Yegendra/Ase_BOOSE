@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASE-Yegendra", "ASE-Yegendra\ASE-Yegendra.csproj", "{51020F79-763E-4873-A008-1CC49614CE57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ase-YegendraTest", "Ase-YegendraTest\Ase-YegendraTest.csproj", "{B0E5EBF5-97A7-43C0-B1C0-C8010D8D1F7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51020F79-763E-4873-A008-1CC49614CE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51020F79-763E-4873-A008-1CC49614CE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51020F79-763E-4873-A008-1CC49614CE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51020F79-763E-4873-A008-1CC49614CE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E5EBF5-97A7-43C0-B1C0-C8010D8D1F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E5EBF5-97A7-43C0-B1C0-C8010D8D1F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E5EBF5-97A7-43C0-B1C0-C8010D8D1F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E5EBF5-97A7-43C0-B1C0-C8010D8D1F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
